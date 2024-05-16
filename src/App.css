@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color: #0082C6;
+  --hover-color:#024B71;
+  --white: #ffffff;
+  --font-black:#33383D;
+}

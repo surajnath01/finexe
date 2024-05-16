@@ -1,0 +1,82 @@
+
+
+.header-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 100px;
+  box-shadow: 5px 7px 35px 0 rgba(113,113,113,.1);
+}
+
+.header-1 .header-logo{
+    width: fit-content;
+}
+
+.header-1 .header-logo img{
+    width: 144px;
+}
+
+.header-1 .header-list ul{
+    display: flex;
+}
+
+.header-1 .header-list ul li{
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.header-1 .header-list ul li a{
+    text-decoration: none;
+    color: var(--font-color);
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.header-1 .header-list ul li a:hover{
+    text-decoration:underline;
+}
+
+.header-1 .header-list ul li a:focus{
+    text-decoration: underline;
+    color: var(--hover-color);
+}
+
+.header-1 .header-side div img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.header-1 .header-side {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-1 .header-side div{
+    display: flex;
+    align-items: center;
+}
+
+.header-1 .header-side div:nth-child(1){
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-1 .header-side div:nth-child(1) p{
+    margin: 0 10px;
+    font-weight: 500
+}
+.header-1 .header-side div:nth-child(1) img{
+    margin: 0 10px;
+}
+
+.header-1 .header-side div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+.header-1 .header-side div:nth-child(2) a svg{
+    font-size: 30px;
+    color: var(--hover-color);
+}
